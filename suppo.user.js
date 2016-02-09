@@ -3,7 +3,7 @@
 // @namespace   Suppo
 // @description Script to assist Yotpo support in daily tasks
 // @include     *
-// @version     0.0.1
+// @version     0.0.2
 // @grant       none
 // ==/UserScript==
 
@@ -20,7 +20,7 @@ function addJQuery(callback) {
 }
 
 function main() {
-	console.log("version 0.0.1");
+	console.log("version 0.0.2");
 }
 
 addJQuery(main);
