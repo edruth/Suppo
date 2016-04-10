@@ -21,6 +21,24 @@ function addJQuery(callback) {
 
 function main() {
 	console.log("version 0.0.2");
+	
+	function inIframe () {
+	    try {
+	    	return window.self !== window.top;
+	    } catch (e) {
+	    	return true;
+	    }
+	}
+
+	var inIframe = inIframe();
+	if (!inIframe) {
+		var floater = ('</div>', {
+			"id" : "suppo-btn";
+			"text" : "Scrape";
+		});
+
+		
+	}
 }
 
 addJQuery(main);
